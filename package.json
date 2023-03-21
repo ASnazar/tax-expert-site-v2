@@ -1,7 +1,7 @@
 {
   "name": "tax-expert",
   "version": "0.1.0",
-  "homepage": "https://asnazar.github.io/tax-expert-site",
+  "homepage": "https://asnazar.github.io/tax-expert-site-v2",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
