@@ -1,0 +1,85 @@
+
+.lang_menu {
+    width: 60px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 27px;
+    position: relative;
+    z-index: 10;
+    margin-right: 35px;
+
+
+}
+.lang-menu .selected_lang {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+    cursor: pointer;
+
+}
+.lang_menu .selected_lang:before {
+
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://www.worldometers.info/img/flags/us-flag.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lang_menu ul {
+    margin: 0;
+    padding: 0;
+    display: none;
+    background-color: rgba(2, 33, 107, 0.85);
+    border: 1px solid #030167;
+    position: absolute;
+    top: 45px;
+    right: 0;
+    width: 50px;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+}
+
+
+.lang_menu ul li {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lang_menu ul li a {
+    text-decoration: none;
+    width: 70px;
+    padding: 5px 10px;
+    display: block;
+}
+
+.lang_menu ul li:hover {
+    background-color: #000a24;
+    border-radius: 5px;
+}
+
+.lang_menu ul li a:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ua:before {
+    background-image: url(https://www.worldometers.info/img/flags/up-flag.gif);
+}
+
+.en:before {
+    background-image: url(https://www.worldometers.info/img/flags/us-flag.gif);
+}
+
+.lang_menu:hover ul {
+    display: block;
+}

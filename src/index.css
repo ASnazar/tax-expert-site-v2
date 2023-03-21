@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: Arial;
+}
+
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.body{
+    /*background: linear-gradient(90deg, rgba(1,140,181,1) 0%, rgb(3, 1, 103) 100%, rgba(0,212,255,1) 100%);*/
+    width: 100%;
+    height: 100%;
+}
+
+
+.vanta{
+    /*position: absolute;*/
+    position: fixed;
+   bottom: 0 ;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+
+
+}
