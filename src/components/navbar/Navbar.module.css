@@ -75,7 +75,10 @@
         z-index: 10;
     }
 
-
+    .logo_image_nav img{
+        width: 85%;
+        height: 100px;
+    }
     .menu{
         display: flex;
         flex-direction: column;

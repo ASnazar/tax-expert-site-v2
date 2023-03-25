@@ -4,6 +4,25 @@
     "aboutUs": "About us",
     "contact": "Contact",
     "services": "Services"
+  },
+  "home": {
+    "firstHelloBlock": {
+      "title": "ACCOUNTING SERVICES",
+      "titleText": "Accounting services for enterprises and entrepreneurs in Kyiv and throughout Ukraine. Legal support. Examination of documents. Accounting outsourcing. Tax accounting.",
+      "button": "Call back"
+    }
+  },
+  "about": {
+    "aboutUs": {
+      "title": "Tax Expert is a service company",
+      "year": "since 2010",
+      "description": "we provide outsourcing services to companies and entrepreneurs",
+      "ourActivity": "Areas of activity",
+      "activity1": "Consultations on starting a business",
+      "activity2": "Registration of individual entrepreneurs and companies",
+      "activity3": "Accounting outsourcing",
+      "activity4": "Personnel services",
+      "activity5": "Legal Services"
+    }
   }
-
 }
