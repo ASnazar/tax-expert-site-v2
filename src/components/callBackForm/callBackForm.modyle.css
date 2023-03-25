@@ -1,0 +1,43 @@
+.form {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.input{
+    height: 40px;
+    width: 300px;
+    border-radius:30px;
+    margin: 15px 0;
+    margin-left: 5px;
+    padding: 10px;
+}
+.contein h1{
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.modal_content {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #090f318f;
+    transform: scale(0.5);
+    transition: 0.4s all;
+    color: white;
+}
+.inp_sub .input{
+    width: 90px;
+}
+.inp_sub{
+    display: flex;
+    justify-content: right;
+}
+

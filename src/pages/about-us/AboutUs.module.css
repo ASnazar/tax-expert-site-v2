@@ -1,14 +1,37 @@
 .topImg{
     height: 500px;
-    width: 85%;
+    width: 80%;
     margin: 100px auto;
     background-image: url("../../asserts/bug-bg2.jpg");
     border-radius: 40px;
 }
+
+.btn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.333;
+    padding: 13px 27px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 3px solid #fff;
+    background-color: #fff;
+    box-shadow: 0 4px 20px #000a24;
+    color: black;
+    transition: background .1s linear;
+    margin-top: 60px;
+    border-radius: 10px;
+
+}
+
+.btn:hover {
+    background: none;
+    font-weight: bold;
+    color: #fff;
+}
 .info{
     width: 70%;
     margin: 100px auto;
-    height: 300vh;
+    height: auto;
     background-color: white;
     border-radius: 25px;
 }
@@ -66,4 +89,55 @@
 }
 .benefixConteiner p{
     margin-bottom: 30px;
+}
+.aboutPerson{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.albomCard{
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 1em;
+    margin-top: 30px;
+    justify-content: center;
+
+
+}
+.personCard{
+    /*background-image: url("../../asserts/person1.jpg");*/
+    background-color: #a9a9a96b;
+    border-radius: 25px;
+    height: 300px;
+    width: 255px;
+
+}
+.formBox{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    background-color: #a9a9a96b ;
+    justify-content: space-evenly;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.personCard:hover .description{
+
+    display: block;
+}
+.personCard:hover .descriptionAndName{
+    margin-top: 150px;
+    transition: font-weight .4s ease-in-out;
+}
+.descriptionAndName{
+    margin-top: 250px;
+}
+.description  {
+    display: none;
 }

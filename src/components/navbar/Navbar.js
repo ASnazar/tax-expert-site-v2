@@ -30,11 +30,7 @@ const Navbar = () =>{
                             <img src={Logo_2} alt="/"/>
                             </div>
                         <li ><Link to="/home">{t('navbar.home_page')} </Link></li>
-
-                        {/*<li ><a href='/home'>{t('navbar.home_page')}</a> </li>*/}
-                        {/*<li ><a href='/home'>{t('navbar.aboutUs')}</a> </li>*/}
                         <li ><Link to="/about">{t('navbar.aboutUs')} </Link></li>
-
                         <li ><a href='/home'>{t('navbar.services')}</a> </li>
                         <li ><a href='/home'>{t('navbar.contact')}</a> </li>
                         <Outlet/>
