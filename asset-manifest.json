@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/tax-expert-site-v2/static/css/main.3fe4568a.css",
-    "main.js": "/tax-expert-site-v2/static/js/main.22007876.js",
+    "main.css": "/tax-expert-site-v2/static/css/main.f13c651d.css",
+    "main.js": "/tax-expert-site-v2/static/js/main.a67093f5.js",
     "static/media/about2.png": "/tax-expert-site-v2/static/media/about2.f2d94730a1e7de908962.png",
     "static/media/roberts.jpg": "/tax-expert-site-v2/static/media/roberts.9ed72fa97fe151115d86.jpg",
     "static/media/bug-bg2.jpg": "/tax-expert-site-v2/static/media/bug-bg2.8a4bc6426edc61eb9f37.jpg",
+    "static/media/person5.jpg": "/tax-expert-site-v2/static/media/person5.b5f8596f4417f3f9a058.jpg",
+    "static/media/services.jpg": "/tax-expert-site-v2/static/media/services.345ed988939a4a0ef43a.jpg",
+    "static/media/person7.jpg": "/tax-expert-site-v2/static/media/person7.39cc7d047c905bed4886.jpg",
     "static/media/img_person_2.jpg": "/tax-expert-site-v2/static/media/img_person_2.91141de4d888e510bd25.jpg",
     "static/media/img_person.png": "/tax-expert-site-v2/static/media/img_person.2a7e751effbeb77031cc.png",
     "static/media/logo_2.png": "/tax-expert-site-v2/static/media/logo_2.fc287647e6e7250ac7c9.png",
+    "static/media/person3.jpg": "/tax-expert-site-v2/static/media/person3.68d84068917bc446a10f.jpg",
     "static/media/logo_1.png": "/tax-expert-site-v2/static/media/logo_1.09568d5feeaf7135653a.png",
+    "static/media/person6.jpg": "/tax-expert-site-v2/static/media/person6.831028f7f37c29bf8147.jpg",
+    "static/media/person2.jpg": "/tax-expert-site-v2/static/media/person2.7c01a5cbb7346c9aa73a.jpg",
+    "static/media/person4.jpg": "/tax-expert-site-v2/static/media/person4.acfb95faeb9dea4184b3.jpg",
     "index.html": "/tax-expert-site-v2/index.html",
     "static/media/getFetch.cjs": "/tax-expert-site-v2/static/media/getFetch.40f37ddea2378391108f.cjs",
     "static/media/award-fill-blue.svg": "/tax-expert-site-v2/static/media/award-fill-blue.ee9fda23bc12a8dc4279.svg",
     "static/media/caret-right-fill-custom.svg": "/tax-expert-site-v2/static/media/caret-right-fill-custom.bdb58bb4151900e003ef.svg",
-    "main.3fe4568a.css.map": "/tax-expert-site-v2/static/css/main.3fe4568a.css.map",
-    "main.22007876.js.map": "/tax-expert-site-v2/static/js/main.22007876.js.map"
+    "main.f13c651d.css.map": "/tax-expert-site-v2/static/css/main.f13c651d.css.map",
+    "main.a67093f5.js.map": "/tax-expert-site-v2/static/js/main.a67093f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fe4568a.css",
-    "static/js/main.22007876.js"
+    "static/css/main.f13c651d.css",
+    "static/js/main.a67093f5.js"
   ]
 }
