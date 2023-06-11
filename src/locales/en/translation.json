@@ -14,15 +14,24 @@
   },
   "about": {
     "aboutUs": {
+      "whyWe": "WHY YOU SHOULD CHOOSE THE COMPANY",
       "title": "Tax Expert is a service company",
       "year": "since 2010",
-      "description": "we provide outsourcing services to companies and entrepreneurs",
+      "description": "We provide outsourcing services to companies and entrepreneurs",
       "ourActivity": "Areas of activity",
       "activity1": "Consultations on starting a business",
       "activity2": "Registration of individual entrepreneurs and companies",
       "activity3": "Accounting outsourcing",
       "activity4": "Personnel services",
-      "activity5": "Legal Services"
+      "activity5": "Legal Services",
+      "benefitH1": "Purpose",
+      "benefitDescription1": "To take a leading position among companies in Kyiv and Ukraine that provide business services",
+      "benefitH2": "Mission",
+      "benefitDescription2": "To develop the business of our clients by providing professional service services",
+      "benefitH3": "Values",
+      "benefitDescription3": "The main values are customers and company employees",
+      "ourEmployees": "PROFESSIONALS",
+      "ourCommand": "Our team"
     }
   }
 }

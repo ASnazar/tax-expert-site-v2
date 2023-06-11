@@ -30,9 +30,6 @@ const ModalWindowCalRegister = ({ active, setActive }) => {
         {
             console.log("Registration Failed");
         }
-
-
-
     }
 
 

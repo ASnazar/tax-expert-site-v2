@@ -7,6 +7,9 @@ import Img_2 from '../../asserts/img_person_2.jpg'
 import ModalWindowCalRegister from "../../components/modalWindow/ModalWindowCalRegister";
 import "../../i18next";
 import {useTranslation} from "react-i18next";
+import Navbar from "../../components/navbar/Navbar";
+import Footer from "../../components/footer/Footer";
+import Vanta from "../../components/Vanta";
 
 
 
@@ -39,6 +42,7 @@ const Home = () =>{
                 viewport={{ once: true }}
 
                 >
+                {/*<Navbar/>*/}
             <div className={style.boxWelcomeWithImg}>
                 <div className={style.boxWelcome}>
                     <motion.h1 custom={2} variants= {textAnimation} className={style.h11}>{t('home.firstHelloBlock.title')}</motion.h1>
@@ -89,18 +93,6 @@ const Home = () =>{
                                         <li >фізична особа щодо декларування та сплати податків з доходів та оподаткування майна.</li>
                                     </ul>
                                 </div>
-
-                            {/*<div className={style.our_advantage}>*/}
-                            {/*    <h2 >Наші переваги</h2>*/}
-                            {/*        <ul>*/}
-                            {/*            <li >Податкова спеціалізація</li>*/}
-                            {/*            <li >Податкова спеціалізація</li>*/}
-                            {/*            <li >Податкова спеціалізація</li>*/}
-                            {/*            <li >Податкова спеціалізація</li>*/}
-                            {/*            <li >Податкова спеціалізація</li>*/}
-                            {/*            <li   >Податкова спеціалізація</li>*/}
-                            {/*        </ul>*/}
-                            {/*</div>*/}
                         </div>
                         <img src={Img_2}  alt="/"/>
                     </div>
@@ -160,6 +152,8 @@ const Home = () =>{
                 </div>
                 <Arrow/>
             </div>
+                {/*<Footer/>*/}
+                {/*<Vanta/>*/}
             </motion.section>
         </div>
 

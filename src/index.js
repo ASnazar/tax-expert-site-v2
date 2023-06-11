@@ -7,7 +7,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <Suspense falkback={<div>Loading...</div>}>
-    <App />
+        <App />
       </Suspense>
   </React.StrictMode>
 );

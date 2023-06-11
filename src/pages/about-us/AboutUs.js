@@ -8,18 +8,18 @@ import {FaHands} from "react-icons/fa";
 import {IoIosPeople} from "react-icons/io";
 import ModalWindowCalRegister from "../../components/modalWindow/ModalWindowCalRegister";
 import Img_2 from "../../asserts/about2.png";
-
-
 import CallBackForm from "../../components/callBackForm/callBackForm";
+
 const AboutUs = () =>{
     const {t} = useTranslation();
     const [modalActive, setModalActive] = useState(false);
-
     return (
 
         <div>
             <div>
                 <div className={style.topImg}>
+                    <p>{t('about.aboutUs.whyWe')}</p>
+                    <h3>Tax Expert ?</h3>
                   <a  onClick={() => setModalActive(true)} className={style.btn}>{t('home.firstHelloBlock.button')}</a>
                 </div>
                 <ModalWindowCalRegister active={modalActive} setActive={setModalActive}/>
@@ -57,76 +57,76 @@ const AboutUs = () =>{
                             </div>
                         </div>
                         <div className={style.aboutPerson}>
-                            <h3>ПРОФЕСІОНАЛИ СВОЄЇ СПРАВИ</h3>
-                            <h1>Наша команда</h1>
+                            <h3>{t('about.aboutUs.ourEmployees')}</h3>
+                            <h1>{t('about.aboutUs.ourCommand')}</h1>
                             <div className={style.albomCard}>
-                                        <div className={style.personCard}>
+                                        <div className={`${style.personCard} ${style.personCard_1}`}  >
                                             <p className= {style.descriptionAndName}>
-                                                <h2>Name person</h2>
-                                                <p  className={style.description} >Description rdfrgttfd grtfds gbtrfeds rgtfeds grrfed bgrvfedcs rgvfed grvfced</p>
+                                                <h2>Балко Назарій</h2>
+                                                <p  className={style.description} >Сертифікація САР, практичний досвід в бухгалтерії та фінансовому плануванні понад 5 років</p>
                                             </p>
                                         </div>
-                                    <div className={style.personCard}>
+                                    <div className={`${style.personCard} ${style.personCard_2}`}>
                                         <p className= {style.descriptionAndName}>
-                                            <h2>Name person</h2>
-                                            <p  className={style.description} >Description rdfrgttfd grtfds gbtrfeds rgtfeds grrfed bgrvfedcs rgvfed grvfced</p>
+                                            <h2>Паламарчук Олена</h2>
+                                            <p  className={style.description} >Практичний досвід в управлінському та фінансовому плануванні понад 15 років</p>
                                         </p>
                                     </div>
-                                    <div className={style.personCard}>
+                                    <div className={`${style.personCard} ${style.personCard_3}`}>
                                         <p className= {style.descriptionAndName}>
-                                            <h2>Name person</h2>
-                                            <p  className={style.description} >Description rdfrgttfd grtfds gbtrfeds rgtfeds grrfed bgrvfedcs rgvfed grvfced</p>
+                                            <h2>Бессуднова Ірина</h2>
+                                            <p  className={style.description} >Сертифікація САР, практичний досвід в бухгалтерії та фінансовому плануванні понад 10 років</p>
                                         </p>
                                     </div>
-                                    <div className={style.personCard}>
+                                    <div className={`${style.personCard} ${style.personCard_4}`}>
                                         <p className= {style.descriptionAndName}>
-                                            <h2>Name person</h2>
-                                            <p  className={style.description} >Description rdfrgttfd grtfds gbtrfeds rgtfeds grrfed bgrvfedcs rgvfed grvfced</p>
+                                            <h2>Голич Васелина</h2>
+                                            <p  className={style.description} >Практичний досвід в управлінському та фінансовому плануванні понад 5 років</p>
                                         </p>
                                     </div>
-                                    <div className={style.personCard}>
+                                    <div className={`${style.personCard} ${style.personCard_5}`}>
                                         <p className= {style.descriptionAndName}>
-                                            <h2>Name person</h2>
-                                            <p  className={style.description} >Description rdfrgttfd grtfds gbtrfeds rgtfeds grrfed bgrvfedcs rgvfed grvfced</p>
+                                            <h2>Стара Марія</h2>
+                                            <p  className={style.description} >Сертифікація САР, практичний досвід в бухгалтерії та фінансовому плануванні понад 5 років</p>
                                         </p>
                                     </div>
-                                    <div className={style.personCard}>
+                                    <div className={`${style.personCard} ${style.personCard_6}`}>
                                         <p className= {style.descriptionAndName}>
-                                            <h2>Name person</h2>
-                                            <p  className={style.description} >Description rdfrgttfd grtfds gbtrfeds rgtfeds grrfed bgrvfedcs rgvfed grvfced</p>
+                                            <h2>Віхоть Вікторія</h2>
+                                            <p  className={style.description} >Практичний досвід в управлінському та фінансовому плануванні понад 15 років</p>
                                         </p>
                                     </div>
-                                    <div className={style.personCard}>
+                                    <div className={`${style.personCard} ${style.personCard_7}`}>
                                         <p className= {style.descriptionAndName}>
-                                            <h2>Name person</h2>
-                                            <p  className={style.description} >Description rdfrgttfd grtfds gbtrfeds rgtfeds grrfed bgrvfedcs rgvfed grvfced</p>
+                                            <h2>Ярема Ярослава</h2>
+                                            <p  className={style.description} >Практикуючий головний бухгалтер Досвід в бухгалтерії у понад 12 років</p>
                                         </p>
                                     </div>
-                                    <div className={style.personCard}>
+                                    <div className={`${style.personCard} ${style.personCard_8}`}>
                                         <p className= {style.descriptionAndName}>
-                                            <h2>Name person</h2>
-                                            <p  className={style.description} >Description rdfrgttfd grtfds gbtrfeds rgtfeds grrfed bgrvfedcs rgvfed grvfced</p>
+                                            <h2>Гнатович Ольга</h2>
+                                            <p  className={style.description} >Сертифікація САР, практичний досвід в бухгалтерії та фінансовому плануванні понад 15 років</p>
                                         </p>
                                     </div>
-                                    <div className={style.personCard}>
+                                    <div className={`${style.personCard} ${style.personCard_9}`}>
                                         <p className= {style.descriptionAndName}>
-                                            <h2>Name person</h2>
-                                            <p  className={style.description} >Description rdfrgttfd grtfds gbtrfeds rgtfeds grrfed bgrvfedcs rgvfed grvfced</p>
+                                            <h2>Орищин Марія</h2>
+                                            <p  className={style.description} >Практикуючий головний бухгалтер Досвід в бухгалтерії у понад 12 років</p>
                                         </p>
                                     </div>
                             </div>
                             <div className={style.formBox}>
                                 <img src={Img_2}    height="400" alt="/"/>
                                 <CallBackForm/>
+                                <ModalWindowCalRegister/>
+                            </div>
+                         </div>
+                     </div>
+                 </div>
 
-                            <ModalWindowCalRegister/>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
+              </div>
+            {/*<Footer/>*/}
+            {/*<Vanta/>*/}
         </div>
     );
 }
